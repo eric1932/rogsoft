@@ -7,7 +7,7 @@ Koolshare Asuswrt-Merlin shadowsocks Changelog
    - add	加入ss_post_start功能，可以在SS服务运行完毕后触发用户自己的脚本；
     		加入ss_pre_stop功能，可以在SS服务开始关闭前触发用户自己的脚本；
      		* 例如在/koolshare/ss/postscripts/下放入两个脚本:P01V2ray.sh, P99Brook.sh
-     		* SS插件运行后货自动按照数字从小到大顺序运行 P01V2ray.sh start, P99Brook.sh start
+     		* SS插件运行后会自动按照数字从小到大顺序运行 P01V2ray.sh start, P99Brook.sh start
      		* SS插件关闭前会自动按照数字从大到小顺序运行 P99Brook.sh stop, P01V2ray.sh stop
    - update	同步最新规则。
    - fix	脚本：修复gfwlist模式下国内DNS解析的国内cdn问题。
